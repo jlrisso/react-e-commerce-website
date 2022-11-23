@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic|Montserrat:400,700);
+
+
+.main-cart-title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 1em 0;
+    border-bottom: 1px solid #dadada;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.heading {
+    padding: 1em 0;
+    border-bottom: 0px solid #D0D0D0;
+}
+
+.heading h1 {
+    font-family: 'Droid Serif', serif;
+    font-size: 2em;
+    float: left;
+}
+
+.empty-cart-btn {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -.015em;
+    font-size: .75em;
+    padding: 1em;
+    font-weight: bold;
+    border-radius: 50px;
+    float: right;
+    text-align: right;
+}
+
+.wrap {
+    width: 75%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 5% 0;
+    margin-bottom: 5em;
+
+}
+
+
+.tableHead {
+    display: table;
+    width: 100%;
+    font-family:'Montserrat', sans-serif;
+    font-size: .75em;
+    
+}
+
+.prodHeader li {
+    text-align: left;
+}
+
+.tableHead li {
+    display: table-cell;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.cart {
+    padding: 1em 0;
+}
+
+
+.subtotal {
+    float: right;
+    width: 35%;
+    margin-bottom: 7em;
+}
+
+.totalRow {
+    padding: .5em;
+    text-align: right;
+}
+
+li.totalRow{
+    list-style: none;
+}
+
+.final {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.totalRow span{
+    display: inline-block;
+    padding: 0 0 0 1em;
+    text-align: right;
+}
+span.label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .85em;
+    text-transform: uppercase;
+    color: #777;
+}
+
+span.value {
+    letter-spacing: -.025em;
+    width: 35%;
+}
+
+a.continue {
+    float: right;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 1em 3em;
+    border-radius: 50px;
+    text-align: center;
+    border: 1px solid #82ca9c;
+    background-color: #82CA9C;
+}
+    
+.swal2-title {
+    font-size: 1em;
+}

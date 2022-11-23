@@ -1,0 +1,18 @@
+
+
+.form-wrap{
+    padding: 3em 3em 7em 0;
+    width: 70%;
+}
+
+.buybtn {
+    margin-top: 2em;
+    width: 450px;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+h3.order-submitted{
+    color: lightseagreen;
+}
+

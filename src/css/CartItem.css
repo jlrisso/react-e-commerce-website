@@ -1,0 +1,128 @@
+
+
+.items {
+    display: block;
+    width: 100%;
+    vertical-align: middle;
+    padding: 1.5em;
+    border-bottom: 1px solid #fafafa;
+}
+
+.infoWrap {
+    display: table;
+    width: 100%;
+}
+.cartSection {
+    display: table-cell; 
+    vertical-align: middle;
+    margin: 0;
+    padding-right: 50px;
+    border: 0;
+}
+
+.cartSection h3{
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .025em;   
+}
+      
+.itemNumber {
+    font-size: .75em;
+    color: #777;
+    margin-bottom: .5em;
+}
+      
+.items p {
+    display: inline-block;
+    font-size: .85em;
+    color: #777777;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.quantity {
+    font-weight: bold;
+    color: #333;
+}
+
+p.stockStatus  {
+    color: #82CA9C;
+    font-weight: bold;
+    padding: .5em 0 0 1em;
+    text-transform: uppercase;
+}
+
+p.qty {
+    margin-right: 40px;
+    margin-bottom: 66px;
+}
+        
+.itemImg {
+    float: left;
+    width: 8em;
+    display: inline;
+    padding-right: 1em;
+      
+}
+
+.qtyWrap, .prodTotal {
+    display: table-cell; 
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    width: 20%;
+}
+.qtyWrap, .prodTotal p {
+      font-weight: bold;
+      font-size: 1.25em;
+}
+
+.removeWrap {
+    width: 20%;
+    display: table-cell; 
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+}
+       
+input.qty {
+    width: 2em;
+    text-align: center;
+    font-size: 1em;
+    padding: .25em;
+    margin: 1em .5em 0 0;
+}
+
+.remove-product {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    background: #e0e0e0;
+    padding: .5em;
+    font-size: 1em;
+    display: inline-block;
+    border-radius: 100%;
+    line-height: .85;
+    border-color: white;
+    margin-bottom: 1.2em;
+}
+
+.remove-product:hover {
+    background: #f30;
+    border-color: white;
+}
+ 
+.remove-product:active{
+    background: #f30 !important;
+    border-color: white !important;
+}
+
+.remove-product:active{
+    background: #f30;
+}

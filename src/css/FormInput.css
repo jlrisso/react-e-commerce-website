@@ -1,0 +1,36 @@
+
+.form-error{
+    font-size: 14px;
+    padding: 4px;
+    color: red;
+    display: none;
+}
+
+input:invalid[focused='true'] {
+    border: 1px solid red;
+}
+
+input:invalid[focused='true'] ~ span.form-error {
+    display: block;
+}
+
+.col-input {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+input.form-input {
+    padding: 10px;
+    margin: 10px 0px;
+
+}
+
+form:invalid button[type="submit"] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+label > span.required-field{
+    color: red;
+}

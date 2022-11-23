@@ -1,0 +1,16 @@
+.span-cart-widget {
+    font-size: 1em;
+}
+
+.rounded-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 1.6em;
+    height: 1.5em;
+    position: absolute;
+    bottom: 21px;
+    background-color: lightblue;
+    transform: translate(25%,25%);
+}
