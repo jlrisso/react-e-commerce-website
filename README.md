@@ -57,7 +57,7 @@ Esta es la primera página a la que el usuario accede cuando ingresa al sitio. L
 
 
 ### Página detalle del producto
-Muestra el detalle del producto que ha sido seleccionado previamente por el usuario, ya sea desde el Home o desde alguna de las categorías. A través de esta vista el usuario accede a una información más detallada del producto, como puede ser: nombre, descripción, precio, etc. A su vez posibilita que el usuario pueda agregar el ítem al carrito de compras, seleccionando la cantidad deseada y luego clickeando el botón correspondiente.
+Muestra el detalle del producto que ha sido seleccionado previamente por el usuario, ya sea desde el Home o desde alguna de las categorías. A través de esta vista el usuario accede a una información más detallada del producto, como puede ser: nombre, descripción, precio, etc. A su vez posibilita que el usuario pueda agregar el ítem al carrito de compras, seleccionando la cantidad deseada y luego clickeando el botón correspondiente. **IMPORTANTE: Si el producto visualizado por el usuario hubiera sido previamente agregado al carrito, en el apartado de cantidad de esta vista se va a mostrar la última cantidad selectada, pudiendo la misma ser modificada.**
 <br/>
 
 ![](./public/img/screenshots/Detail.png)
