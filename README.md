@@ -9,7 +9,7 @@
      E-commerce con las operaciones básicas y típicas de estos sitios, por normbrar algunas: visualización de productos, navegación por categorías, posibilidad de llenar un carro de compras, etc.
     <br />
     <br />
-    <a href="https://github.com/jlrisso/react-e-commerce-website">Ver Demo</a>
+    <a href="https://react-e-commerce-website-theta.vercel.app/">Ver Site</a>
   </p>
 </div>
 <br />

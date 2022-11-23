@@ -1,17 +1,16 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import { Container } from 'react-bootstrap'
 import ItemDetailContainer from './ItemDetailContainer'
 import ItemListContainer from './ItemListContainer'
 import {Routes, Route} from 'react-router-dom';
 import Cart from './Cart'
 import Checkout from './Checkout';
-import { CartContext } from '../context/CartContext';
 
 
 
 export default function Main() {
 
-  const {cart} = useContext(CartContext)
+  
 
 
   return (
