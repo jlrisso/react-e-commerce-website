@@ -9,7 +9,7 @@
      E-commerce con las operaciones básicas y típicas de estos sitios, por normbrar algunas: visualización de productos, navegación por categorías, posibilidad de llenar un carro de compras, etc.
     <br />
     <br />
-    <a href="https://react-e-commerce-website-jlrisso.vercel.app/" target="_blank" rel="noreferrer">Ver site</a>
+    <a href="https://react-e-commerce-website-jlrisso.vercel.app/">Ver site</a>
   </p>
 </div>
 <br />
