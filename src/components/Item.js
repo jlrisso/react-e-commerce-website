@@ -18,7 +18,7 @@ export default function Item(props) {
 
   return (
     <Col>
-    <Card style={{ width: '15rem' }}  >
+    <Card style={{ width: '15rem', marginBottom: 70, }}  >
       <Card.Img variant="top" src={img} width={238} height={360} />
       <Card.Body>
         <ListGroup className="list-group-flush">
