@@ -6,7 +6,7 @@ import {useParams} from 'react-router-dom';
 export default function ItemListContainer() {
 
   const [items, setItems] = useState([]);
-  
+  const [itemsLoading, setItemsLoading] = useState(true);
   
   const {categoryName} = useParams();
 
@@ -18,15 +18,20 @@ export default function ItemListContainer() {
       .catch( errorMessage => {
           console.error(errorMessage);
       })
+      .finally(() => { 
+          setItemsLoading(false)
+      })
+
+    return () => setItemsLoading(true);  
       
   }, [categoryName]);
 
-  
+  if (itemsLoading) return <h3>Loading Books...</h3>
   
   return (
-    <>
-      {items.length === 0 ? <h3>Loading Books...</h3> : <div><ItemList items={items}/></div>}
-    </>
+      <div>
+        <ItemList items={items}/>
+      </div>
   )
 }
 

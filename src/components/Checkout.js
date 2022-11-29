@@ -81,11 +81,9 @@ export default function Checkout() {
 
 
 /*
-
 IMPORTANT! :El IF dentro del map que recorre los inputs está puesto para
 poder agregarle al input "confirmEmail" el pattern=values.email (que es para la validación).
 Este IF se tuvo que agregar porque al apartar la variable inputs a otro archivo, no se 
 puede establecer el pattern=values.email en la definición de la variable, porque justamente
 la variable values.email NO EXISTE en ese otro archivo que está dentro de utils. 
-
 */
