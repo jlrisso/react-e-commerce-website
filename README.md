@@ -172,7 +172,7 @@ Parte del camino recorrido para llevar a cabo este proyecto. Hay tareas que aún
 - [x] Insertando Mock Data.
 - [x] Integración con Bootstrap
 - [x] Routing
-- [x] Agregando Hooks [parte uno]
+- [x] Agregando Hooks
     - [x] useState
     - [x] useEffect
 - [x] Integración con Firebase & Firestore
@@ -182,7 +182,7 @@ Parte del camino recorrido para llevar a cabo este proyecto. Hay tareas que aún
 - [x] Implementando useContext
 - [x] Creando lógica del formulario
 - [x] Seteando variables de Entorno
-- [ ] Aplicar Local Storage [ IN PROGRESS ]
+- [ ] **Aplicando Local Storage [ IN PROGRESS ]**
 
 
 
