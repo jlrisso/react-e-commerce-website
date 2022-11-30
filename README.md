@@ -178,17 +178,13 @@ Parte del camino recorrido para llevar a cabo este proyecto. Hay tareas que aún
 - [x] Agregando Hooks [parte uno]
     - [x] useState
     - [x] useEffect
-- [x] Setenado Firebase
-- [x] Setenado Firestore
+- [x] Integración con Firebase & Firestore
     - [x] Tabla de productos
     - [x] Tabla de categorías
 - [x] Creando lógica del carro de compras
-- [x] Agregando Hooks [parte dos]
-    - [x] useContext
-- [x] Agregando Hooks [parte dos]  
+- [x] Implementando useContext
 - [x] Creando lógica del formulario
 - [x] Seteando variables de Entorno
-- [x] Subiendo sitio a producción
 - [ ] Aplicar Local Storage [ IN PROGRESS ]
 
 
