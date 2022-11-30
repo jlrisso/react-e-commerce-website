@@ -168,10 +168,7 @@ Parte del camino recorrido para llevar a cabo este proyecto. Hay tareas que aún
 
 - [x] Incio con: create react app
 - [x] Desarrollo de UI
-- [x] Creación de componentes
-    - [x] Navbar
-    - [x] Main
-    - [x] Foter
+- [x] Creación de componentes (Navbar, Main, Footer)
 - [x] Insertando Mock Data.
 - [x] Integración con Bootstrap
 - [x] Routing
