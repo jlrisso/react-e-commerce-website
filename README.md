@@ -30,6 +30,7 @@
   * [Pre-requisitos](#pre-requisitos)
   * [Instalación](#instalación)
   * [Ejecución](#ejecutando-la-aplicación)
+- [Roadmap](#roadmap)
 - [Autor](#autor) 
 - [Licencia](#licencia) 
 - [Mostranos tu apoyo](#mostranos-tu-apoyo) 
@@ -161,6 +162,40 @@ En la carpeta del proyecto, ejecutá el siguiente comando para instalar las depe
 
 <br />
 
+# Roadmap
+
+Parte del camino recorrido para llevar a cabo este proyecto. Hay tareas que aún no se han terminado, en las cuales se está trabajando. More to come 😉 
+
+- [x] Incio con: create react app
+- [x] Desarrollo de UI
+- [x] Creación de componentes
+    - [x] Navbar
+    - [x] Main
+    - [x] Foter
+- [x] Insertando Mock Data.
+- [x] Integración con Bootstrap
+- [x] Routing
+- [x] Agregando Hooks [parte uno]
+    - [x] useState
+    - [x] useEffect
+- [x] Setenado Firebase
+- [x] Setenado Firestore
+    - [x] Tabla de productos
+    - [x] Tabla de categorías
+- [x] Creando lógica del carro de compras
+- [x] Agregando Hooks [parte dos]
+    - [x] useContext
+- [x] Agregando Hooks [parte dos]  
+- [x] Creando lógica del formulario
+- [x] Seteando variables de Entorno
+- [x] Subiendo sitio a producción
+- [ ] Aplicar Local Storage [ IN PROGRESS ]
+
+
+
+
+<br/>
+<br/>
 
 
 # Autor
