@@ -1,14 +1,19 @@
-import React, { createContext, useState } from 'react'
+import React, { createContext} from 'react'
 import Swal from 'sweetalert2'
+import useLocalStorage from '../hooks/useLocalStorage';
 
 
 export const CartContext = createContext();
 
+const LOCAL_STORAGE_PREFIX = 'BOOKSPOT-REACT-ECOMMERCE'; 
+const CART_KEY = `${LOCAL_STORAGE_PREFIX}-cart`;
+
+
 
 export default function CartProvider ({children}) {
 
-    
-    const [cart, setCart] = useState([]) 
+    //ANTES DE IMPLEMENTAR LOCAL-STORAGE: const [cart, setCart] = useState([])
+    const [cart, setCart] = useLocalStorage(CART_KEY, []) 
 
 
     const cartQuantity = cart.reduce((acc, product) => acc + product.qty, 0); 
