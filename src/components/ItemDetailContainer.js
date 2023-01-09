@@ -35,3 +35,6 @@ export default function ItemDetailContainer() {
         <div><ItemDetail item={item}/></div>
     )
 }
+
+
+
